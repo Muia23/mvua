@@ -6,7 +6,6 @@ from .models import Home
 
 
 class HomeSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Home
         fields = ['id','dayname','dayweatherlogo','rainamount','dayweathertext','daytemp']
